@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "booking.test.js",
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles",
+    "cucumber": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkhnovskayaYuliya/puppeteer2.git"
+  },
+  "author": "akhnovskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkhnovskayaYuliya/puppeteer2/issues"
+  },
+  "homepage": "https://github.com/AkhnovskayaYuliya/puppeteer2#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "cucumber": "^6.0.7",
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^9.0.2",
+    "puppeteer": "^21.6.1"
+  }
+}
